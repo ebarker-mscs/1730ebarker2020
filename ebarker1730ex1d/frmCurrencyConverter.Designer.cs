@@ -188,6 +188,7 @@
             this.txtAmountBrazil.TabIndex = 2;
             this.txtAmountBrazil.Text = "0.00";
             this.txtAmountBrazil.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtAmountBrazil.TextChanged += new System.EventHandler(this.BrazilTextChanged);
             // 
             // txtAmountFrance
             // 
@@ -197,6 +198,7 @@
             this.txtAmountFrance.TabIndex = 3;
             this.txtAmountFrance.Text = "0.00";
             this.txtAmountFrance.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtAmountFrance.TextChanged += new System.EventHandler(this.FranceTextChanged);
             // 
             // label6
             // 
@@ -235,6 +237,7 @@
             this.txtRateBrazil.TabIndex = 8;
             this.txtRateBrazil.Text = "0.182061";
             this.txtRateBrazil.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtRateBrazil.TextChanged += new System.EventHandler(this.BrazilTextChanged);
             // 
             // txtRateFrance
             // 
@@ -244,6 +247,7 @@
             this.txtRateFrance.TabIndex = 9;
             this.txtRateFrance.Text = "1.19581";
             this.txtRateFrance.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtRateFrance.TextChanged += new System.EventHandler(this.FranceTextChanged);
             // 
             // label7
             // 
@@ -264,6 +268,7 @@
             this.txtUSDVietnam.TabStop = false;
             this.txtUSDVietnam.Text = "0.00";
             this.txtUSDVietnam.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtUSDVietnam.TextChanged += new System.EventHandler(this.USDTextChanged);
             // 
             // txtUSDSouthAfrica
             // 
@@ -275,6 +280,7 @@
             this.txtUSDSouthAfrica.TabStop = false;
             this.txtUSDSouthAfrica.Text = "0.00";
             this.txtUSDSouthAfrica.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtUSDSouthAfrica.TextChanged += new System.EventHandler(this.USDTextChanged);
             // 
             // txtUSDBrazil
             // 
@@ -286,6 +292,7 @@
             this.txtUSDBrazil.TabStop = false;
             this.txtUSDBrazil.Text = "0.00";
             this.txtUSDBrazil.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtUSDBrazil.TextChanged += new System.EventHandler(this.USDTextChanged);
             // 
             // txtUSDFrance
             // 
@@ -297,6 +304,7 @@
             this.txtUSDFrance.TabStop = false;
             this.txtUSDFrance.Text = "0.00";
             this.txtUSDFrance.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtUSDFrance.TextChanged += new System.EventHandler(this.USDTextChanged);
             // 
             // label8
             // 
@@ -335,6 +343,7 @@
             this.btnReset.TabIndex = 4;
             this.btnReset.Text = "&Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnExit
             // 
