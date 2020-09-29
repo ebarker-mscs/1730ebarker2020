@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F2F7FC37-3592-4826-A84C-64E3C1496C9C}</ProjectGuid>
+    <ProjectGuid>{D8D5F71F-9781-43DB-8406-FF48B225D54D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ebarker1730ex2a</RootNamespace>
-    <AssemblyName>ebarker1730ex2a</AssemblyName>
+    <RootNamespace>ebarker1730ex2b</RootNamespace>
+    <AssemblyName>ebarker1730ex2b</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmex2a.cs">
+    <Compile Include="frmex2b.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmex2a.Designer.cs">
-      <DependentUpon>frmex2a.cs</DependentUpon>
+    <Compile Include="frmex2b.Designer.cs">
+      <DependentUpon>frmex2b.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmex2a.resx">
-      <DependentUpon>frmex2a.cs</DependentUpon>
+    <EmbeddedResource Include="frmex2b.resx">
+      <DependentUpon>frmex2b.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
