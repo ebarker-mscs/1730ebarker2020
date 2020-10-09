@@ -1,6 +1,6 @@
 ﻿namespace ebarker1730ex2c
 {
-    partial class Form1
+    partial class frmMinMax
     {
         /// <summary>
         /// Required designer variable.

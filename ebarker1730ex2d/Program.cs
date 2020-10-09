@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ebarker1730ex2c
+namespace ebarker1730ex2d
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace ebarker1730ex2c
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMinMax());
+            Application.Run(new frmIfStatements());
         }
     }
 }
