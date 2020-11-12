@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ebarker1730ex2f", "ebarker1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ebarker1730ex2fUnitTests", "ebarker1730ex2fUnitTests\ebarker1730ex2fUnitTests.csproj", "{AF4FCFE9-05B1-4243-B22E-10EBC29AA635}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ebarker1730ex2g", "ebarker1730ex2g\ebarker1730ex2g.csproj", "{5E764A1D-8000-470C-A4D7-62682DB40C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ebarker1730ex2gUnitTests", "ebarker1730ex2gUnitTests\ebarker1730ex2gUnitTests.csproj", "{EB180E67-3C5B-47C5-A70A-061DEE50D1C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{AF4FCFE9-05B1-4243-B22E-10EBC29AA635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF4FCFE9-05B1-4243-B22E-10EBC29AA635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF4FCFE9-05B1-4243-B22E-10EBC29AA635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E764A1D-8000-470C-A4D7-62682DB40C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E764A1D-8000-470C-A4D7-62682DB40C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E764A1D-8000-470C-A4D7-62682DB40C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E764A1D-8000-470C-A4D7-62682DB40C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB180E67-3C5B-47C5-A70A-061DEE50D1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB180E67-3C5B-47C5-A70A-061DEE50D1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB180E67-3C5B-47C5-A70A-061DEE50D1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB180E67-3C5B-47C5-A70A-061DEE50D1C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
