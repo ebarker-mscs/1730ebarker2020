@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{058829FE-0905-4852-B342-86BDDBE73238}</ProjectGuid>
+    <ProjectGuid>{5CB514E6-6087-4F38-BE58-F5EC2BF47819}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ebarker1730ex2e</RootNamespace>
-    <AssemblyName>ebarker1730ex2e</AssemblyName>
+    <RootNamespace>ebarker1730ex2f</RootNamespace>
+    <AssemblyName>ebarker1730ex2f</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmLogicalOperators.cs">
+    <Compile Include="Ex2fCalculations.cs" />
+    <Compile Include="frmIfStatements.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogicalOperators.Designer.cs">
-      <DependentUpon>frmLogicalOperators.cs</DependentUpon>
+    <Compile Include="frmIfStatements.Designer.cs">
+      <DependentUpon>frmIfStatements.cs</DependentUpon>
     </Compile>
-    <Compile Include="LogicalOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmLogicalOperators.resx">
-      <DependentUpon>frmLogicalOperators.cs</DependentUpon>
+    <EmbeddedResource Include="frmIfStatements.resx">
+      <DependentUpon>frmIfStatements.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

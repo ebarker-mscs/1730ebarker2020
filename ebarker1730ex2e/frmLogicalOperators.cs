@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ebarker1730ex2e
 {
-    public partial class Form1 : Form
+    public partial class frmLogicalOperators : Form
     {
-        public Form1()
+        public frmLogicalOperators()
         {
             InitializeComponent();
         }

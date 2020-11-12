@@ -1,6 +1,6 @@
 ﻿namespace ebarker1730ex2e
 {
-    partial class Form1
+    partial class frmLogicalOperators
     {
         /// <summary>
         /// Required designer variable.
