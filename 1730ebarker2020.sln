@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ebarker1730ex3b", "ebarker1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ebarker1730ex3bUnitTests", "ebarker1730ex3bUnitTests\ebarker1730ex3bUnitTests.csproj", "{858DC01B-A0A9-4285-AD98-622B8FD1D1D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ebarker1730ex3c", "ebarker1730ex3c\ebarker1730ex3c.csproj", "{51BDB89F-0A73-4E9A-A2A4-B58D4C6E9AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ebarker1730ex3cUnitTests", "ebarker1730ex3cUnitTests\ebarker1730ex3cUnitTests.csproj", "{1A269B54-E2D9-4CBC-918C-DFF079ABC2CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{858DC01B-A0A9-4285-AD98-622B8FD1D1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{858DC01B-A0A9-4285-AD98-622B8FD1D1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{858DC01B-A0A9-4285-AD98-622B8FD1D1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BDB89F-0A73-4E9A-A2A4-B58D4C6E9AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BDB89F-0A73-4E9A-A2A4-B58D4C6E9AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BDB89F-0A73-4E9A-A2A4-B58D4C6E9AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BDB89F-0A73-4E9A-A2A4-B58D4C6E9AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A269B54-E2D9-4CBC-918C-DFF079ABC2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A269B54-E2D9-4CBC-918C-DFF079ABC2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A269B54-E2D9-4CBC-918C-DFF079ABC2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A269B54-E2D9-4CBC-918C-DFF079ABC2CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
